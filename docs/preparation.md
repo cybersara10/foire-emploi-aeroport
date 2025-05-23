@@ -18,9 +18,9 @@ Les entreprises participantes pourront diffuser leurs offres et entrer en relati
 
 ## Couleurs
 
-On va utiliser majoritairement la couleur bleu, puis violet doux, noir  et gris.
+On va utiliser majoritairement la couleur **violet doux**, suivie de **noir**, **bleu** et **gris**.
 
 ## Membres du groupe
 
 - Dadi Sarra  
-- Manel Ali  
+- Manel Ali

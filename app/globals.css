@@ -1,6 +1,6 @@
 :root {
-  /* === Couleurs principales personnalisées === */
-  --violet-doux: hsl(295, 60%, 40%);  /* VIOLET FONCÉ 💜 */
+
+  --violet-doux: hsl(295, 60%, 40%);  
   --noir: #1a1a1a;
   --bleu: hsl(220, 60%, 50%);
   --gris-clair: #f5f5f5;
@@ -8,19 +8,19 @@
   --light: #fff;
   --dark: #000;
 
-  /* === Variables principales utilisées dans les composants === */
+  
   --first-color: var(--violet-doux);
   --title-color: var(--noir);
   --text-color: var(--noir);
   --text-color-light: #666;
 
-  /* Alias pour les fichiers CSS */
+  
   --couleur1: var(--violet-doux);
   --couleur2: var(--bleu);
-  --couleur3: #3f51b5; /* autre ton bleu */
-  --couleur4: #7e57c2; /* violet secondaire */
+  --couleur3: #3f51b5; 
+  --couleur4: #7e57c2; 
 
-  /* === Tailles de texte === */
+  
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -30,17 +30,17 @@
   --smaller-font-size: 0.75rem;
   --interligne: 1.7;
 
-  /* === Font Weight === */
+ 
   --font-bold: 800;
   --font-medium-bold: 600;
   --font-semi-bold: 400;
 
-  /* === Mise en page === */
+
   --slidebar-width: 300px;
   --page-max-width: 1024px;
   --navbar-height: 4rem;
 
-  /* === Marges === */
+
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -69,7 +69,7 @@
   }
 }
 
-/* === Mode sombre (facultatif) === */
+
 body.dark {
   --light: #0C0C1E;
   --grey: #060714;
@@ -77,7 +77,7 @@ body.dark {
   --first-color: #0C0C1E;
 }
 
-/* === CSS de base === */
+
 * {
   margin: 0;
   padding: 0;
@@ -101,4 +101,26 @@ body {
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
   line-height: var(--interligne);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
 }
