@@ -17,4 +17,4 @@ On va utiliser majoritairement la couleur bleu, puis violet doux et gris
 ## Membre du groupe 
 - [Dadi Sarra]
 - [Manel Ali]
-- [Hamou Aldja, Oualid]
+- [Hamou Aldja, Oualid]b
