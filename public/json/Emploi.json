@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "titre": "Technicien en instrumentation",
+        "auteur": "Sonatrach",
+        "annee": "2025",
+        "genre": "Temps plein",
+        "description": "Installation, étalonnage et maintenance des équipements d'instrumentation industrielle sur les sites de production pétrolière. Expérience dans les environnements à haute pression souhaitée."
+    },
+    {
+        "id": 2,
+        "titre": "Ingénieur en forage pétrolier",
+        "auteur": "Sonatrach",
+        "annee": "2025",
+        "genre": "Contrat CDI",
+        "description": "Planification et supervision des opérations de forage sur les sites du sud algérien. Une expérience préalable en ingénierie de puits est un atout majeur."
+    },
+    {
+        "id": 3,
+        "titre": "Responsable Qualité - Usine",
+        "auteur": "Marcan Emballages",
+        "annee": "2025",
+        "genre": "Temps plein",
+        "description": "Suivi du respect des normes ISO 22000 et HACCP. Coordination avec les équipes de production pour améliorer les processus qualité."
+    },
+    {
+        "id": 4,
+        "titre": "Opérateur de ligne de production",
+        "auteur": "Marcan Emballages",
+        "annee": "2025",
+        "genre": "Saisonnier",
+        "description": "Travail sur les lignes d’emballage automatisées. Contrôle visuel des produits, emballage et conditionnement. Travail en 2x8."
+    },
+    {
+        "id": 5,
+        "titre": "Chargé de maintenance industriel",
+        "auteur": "Marcan Emballages",
+        "annee": "2025",
+        "genre": "Temps plein",
+        "description": "Assurer la maintenance préventive et corrective des machines d’emballage. Connaissances en électromécanique exigées."
+    }
+]
